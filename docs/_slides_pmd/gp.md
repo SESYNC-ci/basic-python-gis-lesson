@@ -1,3 +1,6 @@
+---
+---
+
 ## GeoPandas
 
 The object for managing simple feature collections in Python is the `GeoDataFrame`.

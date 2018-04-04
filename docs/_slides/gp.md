@@ -1,3 +1,6 @@
+---
+---
+
 ## GeoPandas
 
 The object for managing simple feature collections in Python is the `GeoDataFrame`.
@@ -44,7 +47,7 @@ md.plot()
 {:.text-document title="{{ site.handouts[0] }}"}
 
 ~~~
-Out[1]: <matplotlib.axes._subplots.AxesSubplot at 0x7f0e2409f4a8>
+Out[1]: <matplotlib.axes._subplots.AxesSubplot at 0x7f45e0c0da20>
 ~~~
 {:.output}
 
@@ -63,7 +66,7 @@ md.plot()
 {:.text-document title="{{ site.handouts[0] }}"}
 
 ~~~
-Out[1]: <matplotlib.axes._subplots.AxesSubplot at 0x7f0e240be160>
+Out[1]: <matplotlib.axes._subplots.AxesSubplot at 0x7f45e0be2b38>
 ~~~
 {:.output}
 
@@ -633,7 +636,7 @@ Out[1]:
 {:.input}
 ~~~
 [0;31mType:[0m        property
-[0;31mString form:[0m <property object at 0x7f0e3007d4a8>
+[0;31mString form:[0m <property object at 0x7f45ec7f5318>
 [0;31mDocstring:[0m   Return the geometry type of each geometry in the GeoSeries
 ~~~
 {:.output}
@@ -693,7 +696,7 @@ sesync.plot(ax=ax, color='red', markersize=16)
 {:.text-document title="{{ site.handouts[0] }}"}
 
 ~~~
-Out[1]: <matplotlib.axes._subplots.AxesSubplot at 0x7f0e23ff99e8>
+Out[1]: <matplotlib.axes._subplots.AxesSubplot at 0x7f45e0b3f320>
 ~~~
 {:.output}
 
@@ -709,7 +712,7 @@ md_state.plot(color='white', edgecolor = 'black')
 {:.text-document title="{{ site.handouts[0] }}"}
 
 ~~~
-Out[1]: <matplotlib.axes._subplots.AxesSubplot at 0x7f0e23fd66d8>
+Out[1]: <matplotlib.axes._subplots.AxesSubplot at 0x7f45e0b2eda0>
 ~~~
 {:.output}
 
@@ -734,7 +737,7 @@ huc_sindex
 ~~~
 {:.input}
 ~~~
-Out[1]: <geopandas.sindex.SpatialIndex at 0x7f0e23f9a748>
+Out[1]: <geopandas.sindex.SpatialIndex at 0x7f45e0b17ef0>
 ~~~
 {:.output}
 
@@ -798,7 +801,7 @@ huc_md.plot(ax = ax, color = 'none', edgecolor = 'blue')
 {:.text-document title="{{ site.handouts[0] }}"}
 
 ~~~
-Out[1]: <matplotlib.axes._subplots.AxesSubplot at 0x7f0e24054208>
+Out[1]: <matplotlib.axes._subplots.AxesSubplot at 0x7f45e0b7bc88>
 ~~~
 {:.output}
 

@@ -4,6 +4,7 @@ title: Introduction to Python for GIS
 handouts:
  - worksheet.ipynb
  - data/
+ - data/README.md
 tag: v0.0
 lesson: 6
 instructor: Ian Carroll
