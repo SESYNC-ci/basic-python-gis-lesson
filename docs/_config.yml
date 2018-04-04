@@ -1,16 +1,28 @@
 # Site
 
-title:
+title: Introduction to Python for GIS
 handouts:
-tag:
-lesson:
-instructor:
+ - worksheet.ipynb
+ - data/
+tag: v0.0
+lesson: 6
+instructor: Ian Carroll
 authors:
+ - Ian Carroll
 
 # Slides
 
 slide_sorter:
-
+ - intro
+ - structs
+ - comps
+ - packages
+ - numpy
+ - gp
+# - qgis
+# - pg
+# - conclude
+ 
 #####################################
 # Only modify content above or risk #
 # merge conflicts with upstream.    #
