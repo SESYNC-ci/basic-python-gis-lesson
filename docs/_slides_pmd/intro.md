@@ -4,8 +4,7 @@
 ## Why learn Python?
 
 - Write scripts clearly and quickly
-- High-performance scientific computing
-  - e.g. NumPy and SciKits
+- High-performance scientific computing (e.g. NumPy and SciKits)
 - Common in and out of academia
 - Helpful user community on <https://stackoverflow.com>
 - Early and Re-Emerging GIS environment

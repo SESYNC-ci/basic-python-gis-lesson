@@ -3,7 +3,8 @@
 title: Introduction to Python for GIS
 handouts:
  - worksheet.ipynb
- - data/
+ - data/huc250k
+ - data/cb_2016_us_county_5m
  - data/README.md
 tag: v0.0
 lesson: 6

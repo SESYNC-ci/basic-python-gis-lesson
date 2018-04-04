@@ -165,18 +165,12 @@ Out[1]: 'ABC'
 
 
 ~~~python
-len(lst)
+len(L)
 ~~~
 {:.text-document title="{{ site.handouts[0] }}"}
 
 ~~~
-[0;31m---------------------------------------------------------------------------[0m
-[0;31mNameError[0m                                 Traceback (most recent call last)
-[0;32m<ipython-input-1-70b92d4ae0ca>[0m in [0;36m<module>[0;34m()[0m
-[1;32m      1[0m [0;34m[0m[0m
-[0;32m----> 2[0;31m [0mlen[0m[0;34m([0m[0mlst[0m[0;34m)[0m[0;34m[0m[0m
-[0m
-[0;31mNameError[0m: name 'lst' is not defined
+Out[1]: 3
 ~~~
 {:.output}
 

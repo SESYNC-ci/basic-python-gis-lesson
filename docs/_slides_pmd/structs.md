@@ -104,7 +104,7 @@ Python is "object-oriented" in that everything beyond the basic data types (e.g.
 ```
 
 ```{python, title = "{{ site.handouts[0] }}"}
-len(lst)
+len(L)
 ```
 
 ===
