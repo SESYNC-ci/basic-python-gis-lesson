@@ -80,15 +80,15 @@ import matplotlib.pyplot as plt
 
 fig, ax = plt.subplots()
 ax.set_aspect('equal')
-md.plot(ax=ax, column='ALAND')
-sesync.plot(ax=ax, color='red', markersize=16)
+md.plot(ax = ax, column = 'ALAND')
+sesync.plot(ax = ax, color = 'red', markersize = 16)
 ```
 
 ===
 
 ```{python, title = "{{ site.handouts[0] }}"}
-md_state = md.dissolve(by='STATEFP')
-md_state.plot(color='white', edgecolor = 'black')
+md_state = md.dissolve(by = 'STATEFP')
+md_state.plot(color = 'white', edgecolor = 'black')
 ```
 
 ===
