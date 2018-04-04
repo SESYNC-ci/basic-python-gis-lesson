@@ -21,8 +21,8 @@ slide_sorter:
  - packages
  - numpy
  - gp
-# - qgis
-# - pg
+ - qgis
+ - pg
 # - conclude
  
 #####################################
