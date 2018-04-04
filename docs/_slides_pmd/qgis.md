@@ -53,7 +53,7 @@ This is sometimes unsatisfying ...
 
 ===
 
-Feature attributes are present in a Python dictionary
+Feature attributes are present in a Python dictionary.
 
 ```{python, title = "{{ site.handouts[0] }}"}
 feature.fields().names()
@@ -67,12 +67,13 @@ Feature geometry is represented as a different kind of
 object than present in a `GeoDataFrame`, but through WKT
 or WKB it would be possible to translate.
 
-
 ```python
 feature.geometry().asWkt()
 ```
 
 ===
+
+The Python API supports the creation of vector data and a host of algorithms built in, or installed as plugins, with the QGIS GUI.
 
 ```{python, title = "{{ site.handouts[0] }}"}
 sesync = QgsPointXY(1661514.580789013, 1943320.104999293)
@@ -90,10 +91,14 @@ huc
 ===
 
 ```{python, title = "{{ site.handouts[0] }}"}
-vlayer.getFeature(599).geometry().centroid().asWkt()
+for id in huc:
+    feature = vlayer.getFeature(id)
+    print(feature['HUC_NAME'])
 ```
 
 ===
+
+The processing algorithms come from several providers, QGIS itself, alsong with GDAL, GRASS and possibly others.
 
 ```{python, title = "{{ site.handouts[0] }}"}
 from processing.core.Processing import Processing
@@ -115,7 +120,7 @@ general.algorithmHelp('gdal:dissolve')
 
 # params = {
 #    'INPUT': vlayer,
-#    'FIELD': 'CAT',
+#    'FIELD': 'ACC',
 #    'OUTPUT': out_vlayer}
 # processing.run('gdal:dissolve', params, context = None)
 ```
@@ -123,10 +128,10 @@ general.algorithmHelp('gdal:dissolve')
 ====
 
 ```{python, title = "{{ site.handouts[0] }}"}
-# rlayer = QgsVectorLayer('/data', 'nlcd', 'ogr')
-#
-# import qgis.analysis as qa
-# calc = qa.QgsZonalStatistics(vlayer, rlayer.source(),
-    "b1_", 1, qa.QgsZonalStatistics.Mean)
-# calc.calculateStatistics(None)
+# from qgis.analysis import QgsZonalStatistics
+
+# fileInfo = QFileInfo('/data/agg_3_r_nlcd2001_Houston.tiff')
+# rlayer = QgsRasterLayer('/data/agg_3_r_nlcd2001_Houston.tiff', fileInfo.baseName())
+# calc = QgsZonalStatistics(vlayer, rlayer, '', 1, qa.QgsZonalStatistics.Mean)
+# result = calc.calculateStatistics(None)
 ```

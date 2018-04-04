@@ -47,7 +47,7 @@ md.plot()
 {:.text-document title="{{ site.handouts[0] }}"}
 
 ~~~
-Out[1]: <matplotlib.axes._subplots.AxesSubplot at 0x7f8250c970b8>
+Out[1]: <matplotlib.axes._subplots.AxesSubplot at 0x7fac9b01ff60>
 ~~~
 {:.output}
 
@@ -66,7 +66,7 @@ md.plot()
 {:.text-document title="{{ site.handouts[0] }}"}
 
 ~~~
-Out[1]: <matplotlib.axes._subplots.AxesSubplot at 0x7f82509dfd68>
+Out[1]: <matplotlib.axes._subplots.AxesSubplot at 0x7fac9b01bba8>
 ~~~
 {:.output}
 
@@ -636,7 +636,7 @@ Out[1]:
 {:.input}
 ~~~
 [0;31mType:[0m        property
-[0;31mString form:[0m <property object at 0x7f82583a2318>
+[0;31mString form:[0m <property object at 0x7faca2729458>
 [0;31mDocstring:[0m   Return the geometry type of each geometry in the GeoSeries
 ~~~
 {:.output}
@@ -696,7 +696,7 @@ sesync.plot(ax = ax, color = 'red', markersize = 16)
 {:.text-document title="{{ site.handouts[0] }}"}
 
 ~~~
-Out[1]: <matplotlib.axes._subplots.AxesSubplot at 0x7f82509d21d0>
+Out[1]: <matplotlib.axes._subplots.AxesSubplot at 0x7fac9ad3aeb8>
 ~~~
 {:.output}
 
@@ -712,7 +712,7 @@ md_state.plot(color = 'white', edgecolor = 'black')
 {:.text-document title="{{ site.handouts[0] }}"}
 
 ~~~
-Out[1]: <matplotlib.axes._subplots.AxesSubplot at 0x7f8250922320>
+Out[1]: <matplotlib.axes._subplots.AxesSubplot at 0x7fac9acfe470>
 ~~~
 {:.output}
 
@@ -737,7 +737,7 @@ huc_sindex
 ~~~
 {:.input}
 ~~~
-Out[1]: <geopandas.sindex.SpatialIndex at 0x7f8250911438>
+Out[1]: <geopandas.sindex.SpatialIndex at 0x7fac9ac7ed68>
 ~~~
 {:.output}
 
@@ -801,7 +801,7 @@ huc_md.plot(ax = ax, color = 'none', edgecolor = 'blue')
 {:.text-document title="{{ site.handouts[0] }}"}
 
 ~~~
-Out[1]: <matplotlib.axes._subplots.AxesSubplot at 0x7f82509a3630>
+Out[1]: <matplotlib.axes._subplots.AxesSubplot at 0x7fac9ad7ab38>
 ~~~
 {:.output}
 
