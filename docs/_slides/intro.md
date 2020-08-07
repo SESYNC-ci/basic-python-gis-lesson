@@ -14,7 +14,7 @@
 ## Objectives for this Lesson
 
 - Earn your Python "learner's permit"
-- Work with GeoPandas, the tabular environment for simple featrues
+- Work with GeoPandas, the tabular environment for simple features
 - Connect to QGIS and PostGIS toolkits
 
 ===
