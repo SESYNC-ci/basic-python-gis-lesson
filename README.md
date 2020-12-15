@@ -1,4 +1,4 @@
-[![lifecycle](https://img.shields.io/badge/lifecycle-deprecated-blue.svg)](https://github.com/orgs/SESYNC-ci/projects/2)
+[![lifecycle](https://img.shields.io/badge/lifecycle-archived-lightgrey.svg)](https://github.com/orgs/SESYNC-ci/projects/2)
 
 ## Basic GIS in Python
 
@@ -6,7 +6,7 @@ Work with GeoPandas and connect QGIS to PostGIS.
 
 ## Instructor Notes
 
-This lesson is deprecated. Active lessons covering similar material include:
+This lesson is archived. Active lessons covering similar material include:
 
 * [Basic Python](https://github.com/sesync-ci/basic-python-lesson)
 * [PyQGIS](https://github.com/sesync-ci/basic-PyQGIS-lesson)
